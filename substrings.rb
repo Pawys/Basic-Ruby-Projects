@@ -9,7 +9,7 @@ def substrings(string, dictionary)
     end
   end
   included.each {|word| sub_strings[word] += 1}
-  p sub_strings
+  sub_strings
 end
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
