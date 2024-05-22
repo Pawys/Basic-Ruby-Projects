@@ -18,7 +18,5 @@ def caesar_cipher(string, num)
       encrypted_string.push(letter);
     end
   end
-  puts encrypted_string.join('')
+  encrypted_string.join('')
 end
-
-p caesar_cipher("Hello World!", 5)
